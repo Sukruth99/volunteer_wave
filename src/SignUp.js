@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './SignUp.css'; // Make sure you have a corresponding CSS file
 
 function SignUp() {
@@ -28,6 +29,7 @@ function SignUp() {
           <button type="submit" className="signup-btn">SIGN UP</button>
         </form>
         <button className="close-btn">X</button>
+        <Link to="/" className="back-to-login">Back to Login</Link>
       </div>
     </div>
   );
